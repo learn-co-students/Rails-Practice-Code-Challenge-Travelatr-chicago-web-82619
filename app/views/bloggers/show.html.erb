@@ -1,0 +1,16 @@
+<h1>The show page for blogger: <%= @blogger.name %></h1>
+
+<ul>
+  <li>Age: <%= @blogger.age %></li>
+  <li>Bio: <%= @blogger.bio %></li>
+</ul>
+
+#posts
+
+#destinations
+
+<%= link_to "back", bloggers_path %>
+
+<br><br>
+
+<%= link_to "edit blogger", edit_blogger_path(@blogger) %>
